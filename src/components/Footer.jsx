@@ -12,8 +12,8 @@ export function Footer() {
           <Logo src="/Logo.svg" alt="Your Logo Alt Text" className="h-10 w-auto" />
           <nav className="mt-10 text-sm" aria-label="quick links">
             <div className="-my-1 flex justify-center gap-x-6">
-              <NavLink href="#about">Über uns</NavLink>
-              <NavLink href="#products">Angebote</NavLink>
+              <NavLink href="#about-us">Über uns</NavLink>
+              <NavLink href="#pricing">Angebote</NavLink>
               <NavLink href="#contact">Kontakt</NavLink>
             </div>
           </nav>

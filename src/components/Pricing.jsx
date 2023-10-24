@@ -114,7 +114,7 @@ export function Pricing() {
                         Wir erstellen individuelle Angebote für: Firmen, öffentliche Vorträge und privat Personen.
                     </p>
                     <p className="text-lg text-slate-400">
-                        Neben unseren drei Standardvorträgen à 90 min bieten wir auch individuelle Präsentationen an.
+                        Neben unseren drei Standardvorträgen bieten wir auch individuelle Präsentationen an.
                     </p>
                 </div>
                 <div
