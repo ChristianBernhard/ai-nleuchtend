@@ -140,14 +140,14 @@ function FeaturesMobile() {
     return (
         <div className="-mx-4 mt-20 flex flex-col gap-y-10 overflow-hidden px-4 sm:-mx-6 sm:px-6 lg:hidden">
             <div className="mt-10 mx-auto flex justify-center">
-                        <Image
-                            src="/first.JPG"
-                            alt="t4g image"
-                            width={500}
-                            height={300}
-                            className="rounded-lg shadow-lg"
-                        />
-                    </div>
+                <Image
+                    src="/first.JPG"
+                    alt="t4g image"
+                    width={500}
+                    height={300}
+                    className="rounded-lg shadow-lg"
+                />
+            </div>
             {features.map((feature) => (
                 <div key={feature.summary}>
                     <Feature feature={feature} className="mx-auto max-w-2xl" isActive/>
@@ -228,9 +228,10 @@ export function SecondaryFeatures() {
         >
             <Container>
                 <div className="mx-auto max-w-2xl md:text-center">
-                    <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
+                    <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl mb-2 sm:mb-4">
                         Lernen Sie uns kennen!
                     </h2>
+
                     {/*<p className="mt-4 text-lg tracking-tight text-slate-700">*/}
                     {/*  Entdecken Sie, was uns ausmacht und wie wir Ihren Anforderungen gerecht werden.*/}
                     {/*</p>*/}
