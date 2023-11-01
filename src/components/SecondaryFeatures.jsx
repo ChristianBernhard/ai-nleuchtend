@@ -139,11 +139,6 @@ function Feature({feature, isActive, className, ...props}) {
 function FeaturesMobile() {
     return (
         <div className="-mx-4 mt-20 flex flex-col gap-y-10 overflow-hidden px-4 sm:-mx-6 sm:px-6 lg:hidden">
-            {features.map((feature) => (
-                <div key={feature.summary}>
-                    <Feature feature={feature} className="mx-auto max-w-2xl" isActive/>
-                </div>
-            ))}
             <div className="mt-10 mx-auto flex justify-center">
                         <Image
                             src="/first.JPG"
@@ -153,6 +148,12 @@ function FeaturesMobile() {
                             className="rounded-lg shadow-lg"
                         />
                     </div>
+            {features.map((feature) => (
+                <div key={feature.summary}>
+                    <Feature feature={feature} className="mx-auto max-w-2xl" isActive/>
+                </div>
+            ))}
+
         </div>
     )
 }
