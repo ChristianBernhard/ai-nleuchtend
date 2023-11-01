@@ -12,6 +12,7 @@ import logoTuple from '@/images/logos/tuple.svg'
 export function Hero() {
   return (
     <Container className="pb-16 pt-20 text-center lg:pt-32">
+
       <h1 className="mx-auto max-w-4xl font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-7xl">
         Wir machen{' '}
         <span className="relative whitespace-nowrap text-blue-600">
@@ -46,41 +47,41 @@ export function Hero() {
       {/*    <span className="ml-3">Watch video</span>*/}
       {/*  </Button>*/}
       {/*</div>*/}
-      <div className="mt-36 lg:mt-44">
-        <p className="font-display text-base text-slate-900">
-          KI-Weiterbildung? Check!
-        </p>
-        <ul
-          role="list"
-          className="mt-8 flex items-center justify-center gap-x-8 sm:flex-col sm:gap-x-0 sm:gap-y-10 xl:flex-row xl:gap-x-12 xl:gap-y-0"
-        >
-          {[
-            [
-              { name: 'Transistor', logo: logoTransistor },
-              { name: 'Tuple', logo: logoTuple },
-              { name: 'StaticKit', logo: logoStaticKit },
-            ],
-            [
-              { name: 'Mirage', logo: logoMirage },
-              { name: 'Laravel', logo: logoLaravel },
-              { name: 'Statamic', logo: logoStatamic },
-            ],
-          ].map((group, groupIndex) => (
-            <li key={groupIndex}>
-              <ul
-                role="list"
-                className="flex flex-col items-center gap-y-8 sm:flex-row sm:gap-x-12 sm:gap-y-0"
-              >
-                {group.map((company) => (
-                  <li key={company.name} className="flex">
-                    <Image src={company.logo} alt={company.name} unoptimized />
-                  </li>
-                ))}
-              </ul>
-            </li>
-          ))}
-        </ul>
-      </div>
+      {/*<div className="mt-36 lg:mt-44">*/}
+      {/*  <p className="font-display text-base text-slate-900">*/}
+      {/*    KI-Weiterbildung? Check!*/}
+      {/*  </p>*/}
+      {/*  <ul*/}
+      {/*    role="list"*/}
+      {/*    className="mt-8 flex items-center justify-center gap-x-8 sm:flex-col sm:gap-x-0 sm:gap-y-10 xl:flex-row xl:gap-x-12 xl:gap-y-0"*/}
+      {/*  >*/}
+      {/*    {[*/}
+      {/*      [*/}
+      {/*        { name: 'Transistor', logo: logoTransistor },*/}
+      {/*        { name: 'Tuple', logo: logoTuple },*/}
+      {/*        { name: 'StaticKit', logo: logoStaticKit },*/}
+      {/*      ],*/}
+      {/*      [*/}
+      {/*        { name: 'Mirage', logo: logoMirage },*/}
+      {/*        { name: 'Laravel', logo: logoLaravel },*/}
+      {/*        { name: 'Statamic', logo: logoStatamic },*/}
+      {/*      ],*/}
+      {/*    ].map((group, groupIndex) => (*/}
+      {/*      <li key={groupIndex}>*/}
+      {/*        <ul*/}
+      {/*          role="list"*/}
+      {/*          className="flex flex-col items-center gap-y-8 sm:flex-row sm:gap-x-12 sm:gap-y-0"*/}
+      {/*        >*/}
+      {/*          {group.map((company) => (*/}
+      {/*            <li key={company.name} className="flex">*/}
+      {/*              <Image src={company.logo} alt={company.name} unoptimized />*/}
+      {/*            </li>*/}
+      {/*          ))}*/}
+      {/*        </ul>*/}
+      {/*      </li>*/}
+      {/*    ))}*/}
+      {/*  </ul>*/}
+      {/*</div>*/}
     </Container>
   )
 }
