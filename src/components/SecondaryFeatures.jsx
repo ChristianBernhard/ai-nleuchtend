@@ -146,7 +146,7 @@ function FeaturesMobile() {
             ))}
             <div className="mt-10 mx-auto flex justify-center">
                         <Image
-                            src="/t4g.JPG"
+                            src="/first.JPG"
                             alt="t4g image"
                             width={500}
                             height={300}
