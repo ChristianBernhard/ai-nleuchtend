@@ -142,21 +142,16 @@ function FeaturesMobile() {
             {features.map((feature) => (
                 <div key={feature.summary}>
                     <Feature feature={feature} className="mx-auto max-w-2xl" isActive/>
-                    <div className="relative mt-10 pb-10">
-                        <div className="absolute -inset-x-4 bottom-0 top-8 bg-slate-200 sm:-inset-x-6"/>
-                        <div
-                            className="w-[600px] h-[400px] overflow-hidden rounded-xl bg-white shadow-lg shadow-slate-900/5 ring-1 ring-slate-500/10">
-                            <Image
-                                className="w-full h-full"
-                                src={feature.image}
-                                alt=""
-                                width={600}  // added
-                                height={400}  // added
-                                objectFit="cover"
-                                objectPosition="center"
-                            />
-                        </div>
+                    <div className="mt-10 mx-auto flex justify-center">
+                        <Image
+                            src="/t4g.JPG"
+                            alt="t4g image"
+                            width={500}
+                            height={300}
+                            className="rounded-lg shadow-lg"
+                        />
                     </div>
+
                 </div>
             ))}
         </div>
@@ -188,18 +183,18 @@ function FeaturesDesktop() {
                     </Tab.List>
                     <Tab.Panels
                         className="relative mt-20 overflow-hidden rounded-4xl bg-slate-200 px-14 py-16 xl:px-16">
-                         <div className="-mx-5 flex" style={{width: `${features.length * 600}px`}}>
-        {features.map((feature, featureIndex) => (
-            <Tab.Panel
-                static
-                key={feature.summary}
-                className={clsx(
-                    'px-5 transition duration-500 ease-in-out ui-not-focus-visible:outline-none',
-                    featureIndex !== selectedIndex && 'opacity-60',
-                )}
-                style={{transform: `translateX(-${selectedIndex * 400}px)`}}
-                aria-hidden={featureIndex !== selectedIndex}
-            >
+                        <div className="-mx-5 flex" style={{width: `${features.length * 600}px`}}>
+                            {features.map((feature, featureIndex) => (
+                                <Tab.Panel
+                                    static
+                                    key={feature.summary}
+                                    className={clsx(
+                                        'px-5 transition duration-500 ease-in-out ui-not-focus-visible:outline-none',
+                                        featureIndex !== selectedIndex && 'opacity-60',
+                                    )}
+                                    style={{transform: `translateX(-${selectedIndex * 400}px)`}}
+                                    aria-hidden={featureIndex !== selectedIndex}
+                                >
                                     <div
                                         className="w-[600px] h-[400px] overflow-hidden rounded-xl bg-white shadow-lg shadow-slate-900/5 ring-1 ring-slate-500/10">
                                         <Image
