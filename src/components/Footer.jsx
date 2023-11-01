@@ -9,7 +9,9 @@ export function Footer() {
     <footer className="bg-slate-50">
       <Container>
         <div className="py-16 flex flex-col items-center text-center"> {/* Use flex and center alignment */}
-          <Logo src="/Logo.svg" alt="Your Logo Alt Text" className="h-10 w-auto" />
+          <Link href="#" aria-label="Home">
+                        <Logo src="/Logo.svg" alt="Your Logo Alt Text" className="h-10 w-auto"/>
+                    </Link>
           <nav className="mt-10 text-sm" aria-label="quick links">
             <div className="-my-1 flex justify-center gap-x-6">
               <NavLink href="#about-us">Über uns</NavLink>
