@@ -142,7 +142,9 @@ function FeaturesMobile() {
             {features.map((feature) => (
                 <div key={feature.summary}>
                     <Feature feature={feature} className="mx-auto max-w-2xl" isActive/>
-                    <div className="mt-10 mx-auto flex justify-center">
+                </div>
+            ))}
+            <div className="mt-10 mx-auto flex justify-center">
                         <Image
                             src="/t4g.JPG"
                             alt="t4g image"
@@ -151,9 +153,6 @@ function FeaturesMobile() {
                             className="rounded-lg shadow-lg"
                         />
                     </div>
-
-                </div>
-            ))}
         </div>
     )
 }
