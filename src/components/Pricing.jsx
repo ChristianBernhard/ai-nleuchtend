@@ -123,7 +123,7 @@ export function Pricing() {
                         name="Level: Basics"
                         price="LLM Intuition"
                         description="Wie genau funktionieren die Algorithmen hinter ChatGPT?"
-                        href="#get-started-today"
+                        href="#contact"
                         features={[
                             'Verstehen von Natural Language Processing',
                             'Verschiedene Methoden des Text Embeddings',
@@ -138,7 +138,7 @@ export function Pricing() {
                         name="Level: Basics"
                         price="KI Intuition"
                         description="Wie funktioniert Künstliche Intelligenz?"
-                        href="#get-started-today"
+                        href="#contact"
                         features={[
                             'Was ist künstliche Intelligenz',
                             'Wie funktioniert das Training',
@@ -153,7 +153,7 @@ export function Pricing() {
                         name="Level: Fortgeschritten"
                         price="LLM Expert"
                         description="Einblicke in die Herausforderungen bei der Entwicklung von LLM."
-                        href="#get-started-today"
+                        href="#contact"
                         features={[
                             'Deep Dive in Language Models',
                             'Herausforderungen bei der Skalierung von Milliarden Parametern',
