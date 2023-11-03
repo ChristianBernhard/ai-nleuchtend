@@ -82,8 +82,8 @@ function MobileNavigation() {
             <MobileNavLink href="#about">Über uns</MobileNavLink>
             <MobileNavLink href="#products">Angebote</MobileNavLink>
             <MobileNavLink href="#contact">Kontakt</MobileNavLink>
-            <hr className="m-2 border-slate-300/40" />
-            <MobileNavLink href="/login">Sign in</MobileNavLink>
+            {/*<hr className="m-2 border-slate-300/40" />*/}
+            {/*<MobileNavLink href="/login">Sign in</MobileNavLink>*/}
           </Popover.Panel>
         </Transition.Child>
       </Transition.Root>
@@ -98,7 +98,7 @@ export function Header() {
         <nav className="relative z-50 flex justify-between">
           <div className="flex items-center md:gap-x-12">
             <Link href="#" aria-label="Home">
-                            <Logo src="/Logo.svg" alt="Your Logo Alt Text" className="h-10 w-auto" />
+                            <Logo src="/Logo.svg" alt="Logo" className="h-9 w-auto" />
             </Link>
             <div className="hidden md:flex md:gap-x-6">
               <NavLink href="#about-us">Über uns</NavLink>
