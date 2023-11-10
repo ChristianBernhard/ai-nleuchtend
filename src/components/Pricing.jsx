@@ -128,7 +128,7 @@ export function Pricing() {
                             'Verstehen von Natural Language Processing',
                             'Verschiedene Methoden des Text Embeddings',
                             'Grundlagen der Language Models',
-                            'Einführung in GPT-Technologie',
+                            'Einführung in die GPT-Technologie',
                             'Einfache Anwendungsbeispiele',
                             'Q&A-Segment',
                         ]}
