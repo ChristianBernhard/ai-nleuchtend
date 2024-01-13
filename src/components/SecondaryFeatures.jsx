@@ -6,7 +6,7 @@ import {Tab} from '@headlessui/react'
 import clsx from 'clsx'
 
 import {Container} from '@/components/Container'
-import screenshotContacts from '@/images/screenshots/contacts.png'
+import screenshotContacts from '@/images/screenshots/contacts.ng'
 import screenshotInventory from '@/images/screenshots/inventory.png'
 import screenshotProfitLoss from '@/images/screenshots/test.png'
 
