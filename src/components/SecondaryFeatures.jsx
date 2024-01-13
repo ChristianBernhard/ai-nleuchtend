@@ -42,7 +42,7 @@ const features = [
             'KI: Maßgeschneidert',
         description:
             'Von den Grundlagen der KI bis hin zu spezialisierten Themen wie Large Language Models. Sie können aus einer Vielzahl von Themen wählen, um den besten Mehrwert für Ihr Publikum zu schaffen.',
-        image: "/second.png",
+        image: "/second.JPG",
         width: 600,
         height: 400,
         icon: function InventoryIcon() {
@@ -71,7 +71,7 @@ const features = [
         summary: 'Flexibilität für Ihr Event',
         description:
             'Ob online oder vor Ort, kleine Gruppen oder große Konferenzen, für Laien oder Experten - ich biete verschiedene Formate und Buchungsoptionen an, um Ihren spezifischen Anforderungen gerecht zu werden.',
-        image: "/third.png",
+        image: "/third.JPG",
         width: 600,
         height: 400,
         icon: function ReportingIcon() {

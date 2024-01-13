@@ -125,11 +125,11 @@ export function Pricing() {
                         description="Wie genau funktionieren die Algorithmen hinter ChatGPT?"
                         href="#contact"
                         features={[
-                            'Verstehen von Natural Language Processing',
-                            'Verschiedene Methoden des Text Embeddings',
-                            'Grundlagen der Language Models',
+                            'Grundlagen von Large Language Models',
+                            'Daten Center & Cloud Computing',
                             'Einführung in die GPT-Technologie',
-                            'Einfache Anwendungsbeispiele',
+                            'Relevante Anwendungsbeispiele',
+                            'AI Safety: Chancen & Risiken',
                             'Q&A-Segment',
                         ]}
                     />
@@ -144,8 +144,8 @@ export function Pricing() {
                             'Wie funktioniert das Training',
                             'Training anhand eines echten Beispiels',
                             'Einblicke in die unterschiedlichen Bereiche (CV, NLP, RL)',
-                            'Einblicke in aktuelle Forschung',
-                            'Auswirkungen auf die Gesellschaft',
+                            'Entwickeln einer echten KI',
+                            'Zu was ist KI heute fähig',
                             'Q&A-Segment',
                         ]}
                     />
