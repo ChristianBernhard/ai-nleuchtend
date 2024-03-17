@@ -99,7 +99,7 @@ export function Pricing() {
         <section
             id="pricing"
             aria-label="Pricing"
-            className="bg-slate-900 py-20 sm:py-32"
+            className="bg-slate-900 py-20 sm:py-16"
         >
             <Container>
                 <div className="md:text-center">
@@ -111,7 +111,7 @@ export function Pricing() {
                         im Überblick
                     </h2>
                     <p className="mt-4 text-lg text-slate-400">
-                        Wir erstellen individuelle Angebote für: Firmen, öffentliche Vorträge und privat Personen.
+                        Wir erstellen individuelle Angebote für: Firmen, Führungskräfte, Politiker & Co.
                     </p>
                     <p className="text-lg text-slate-400">
                         Neben unseren drei Standardvorträgen bieten wir auch individuelle Präsentationen an.
@@ -158,12 +158,39 @@ export function Pricing() {
                             'Deep Dive in Language Models',
                             'Herausforderungen bei der Skalierung von Milliarden Parametern',
                             'Technische Details und Architekturen',
-                            'Optimierungsstrategien',
+                            'RAG Systeme mit LangChain',
                             'Diskussion aktueller Forschung',
                             'Q&A-Segment',
                         ]}
                     />
                 </div>
+                <div className="md:text-center mt-16">
+                    <p className="text-lg text-slate-400">
+                        Zusätzlich zu den Vorträgen erhalten die Teilnehmer auf Wunsch ein personalisiertes
+                        Teilnahmezertifikat. Außerdem erhalten Sie Zugriff auf die Unterlagen in Form eines Cheatsheets.
+                        Die Vorträge werden auf Deutsch und Englisch angeboten.
+                    </p>
+                    <p className="text-lg text-slate-400 mt-8">
+                        Neben Vorträgen und Workshops bieten wir auch Beratung in Form von AI Advisory an. Wir
+                        identifizieren und entwickeln mit Ihnen zusammen konkrete Use Cases für Ihr Unternehmen und Ihre
+                        Branche. Darüber hinaus bieten wir auch die darauffolgende Entwicklung eines vollumfänglichen
+                        KI-Systems an.
+                    </p>
+                </div>
+
+                {/*<Container className="relative z-10">*/}
+                {/*    <div className="mx-auto max-w-lg text-center mt-8">*/}
+                {/*        <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl">*/}
+                {/*            Kontaktieren Sie uns jetzt!*/}
+                {/*        </h2>*/}
+                {/*        <p className="mt-4 text-lg tracking-tight text-white">*/}
+                {/*            Tel.: 0177-8028796*/}
+                {/*        </p>*/}
+                {/*        <p className="mt-4 text-lg tracking-tight text-white">*/}
+                {/*            Email: christianbernhard089@gmail.com*/}
+                {/*        </p>*/}
+                {/*    </div>*/}
+                {/*</Container>*/}
             </Container>
         </section>
     )

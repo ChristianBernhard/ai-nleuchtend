@@ -69,7 +69,7 @@ const features = [
         name: 'Format & Buchung',
         summary: 'Flexibilität für Ihr Event',
         description:
-            'Ob online oder vor Ort, kleine Gruppen oder große Konferenzen, für Laien oder Experten - ich biete verschiedene Formate und Buchungsoptionen an, um Ihren spezifischen Anforderungen gerecht zu werden.',
+            'Ob online oder vor Ort, kleine Gruppen oder große Konferenzen, für Laien oder Experten - wir bieten verschiedene Formate und Buchungsoptionen an, um Ihren spezifischen Anforderungen gerecht zu werden.',
         image: "/third.JPG",
         width: 600,
         height: 400,
