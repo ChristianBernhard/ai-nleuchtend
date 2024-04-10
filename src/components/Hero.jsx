@@ -9,13 +9,13 @@ import logoHPConsulting from 'public/logos/hpconsulting.png'
 export function Hero() {
     return (
         <Container className="pb-10 pt-20 text-center lg:pt-16 relative">
-            <h1 className="mx-auto max-w-4xl font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-7xl relative z-10"> {/* Higher z-index */}
+            <h1 className="mx-auto max-w-4xl font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-medium tracking-tight text-slate-900 sm:tracking-normal relative z-10">
                 Wir machen{' '}
-                <span className="relative whitespace-nowrap text-blue-600 inline-block"> {/* Inline-block for span */}
+                <span className="relative whitespace-normal text-blue-600 inline-block"> {/* Inline-block for span */}
                     <svg
                         aria-hidden="true"
                         viewBox="0 0 418 42"
-                        className="absolute left-0 top-2/3 h-[0.58em] w-full fill-blue-300/70"
+                        className="absolute left-0 top-full h-[0.58em] w-full fill-blue-300/70"
                         style={{top: '100%', transform: 'translateY(-50%)'}} // Center vertically
                         preserveAspectRatio="none"
                     >
