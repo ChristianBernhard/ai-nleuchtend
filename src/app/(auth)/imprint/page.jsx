@@ -24,12 +24,7 @@ export default function Imprint() {
       <p>Tel: 0177 8028796</p>
       <p>christianbernhard089@gmail.com</p>
 
-      <h2 className="text-lg font-semibold mt-4">REGISTEREINTRAG:</h2>
-      <p>Registergericht: …</p>
-      <p>Registernummer: …</p>
-
-      <h2 className="text-lg font-semibold mt-4">UMSATZSTEUER-ID:</h2>
-      <p>Umsatzsteuer-Identifikationsnummer gemäß §27 a Umsatzsteuergesetz: DE 59071634483</p>
+      <h2 className="text-lg font-semibold mt-4">Kleingewerbe - Umsatzsteuer frei</h2>
 
       <h2 className="text-lg font-semibold mt-4">VERANTWORTLICH FÜR DEN INHALT NACH § 55 ABS. 2 RSTV:</h2>
       <p>Christian Bernhard</p>
