@@ -5,6 +5,7 @@ import logoWulff from 'public/logos/wulff-removebg-preview.png'
 import logoVHS from 'public/logos/vhs.png'
 import logoKVB from 'public/logos/kvb.png'
 import logoHPConsulting from 'public/logos/hpconsulting.png'
+import logoBeckAkademie from 'public/logos/beckakademie.png'
 
 export function Hero() {
     return (
@@ -54,17 +55,23 @@ export function Hero() {
                             [
                                 {name: 'Wulff', logo: logoWulff},
                                 {name: 'HPConsulting', logo: logoHPConsulting},
+                                {name: 'BeckAkademie', logo: logoBeckAkademie},
+
                             ],
                         ]).map((group, groupIndex) => (
                             <li key={groupIndex}>
                                 <ul role="list"
                                     className="flex flex-col items-center gap-y-8 sm:flex-row sm:gap-x-12 sm:gap-y-0">
                                     {group.map((company) => (
-                                        <li key={company.name} className="flex">
-                                            <Image src={company.logo} alt={company.name} unoptimized
-                                                   className="filter grayscale brightness-60 object-contain"
-                                                   style={{width: '120px', height: '60px'}}/>
-                                        </li>
+                                        <li key={company.name} className="flex items-center justify-center w-[170px] h-[70px]">
+    <Image
+      src={company.logo}
+      alt={company.name}
+      unoptimized
+      className="filter grayscale brightness-60 object-contain w-full h-full" // Fill the container
+    />
+</li>
+
                                     ))}
                                 </ul>
                             </li>
