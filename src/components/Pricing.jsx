@@ -106,61 +106,63 @@ export function Pricing() {
                     <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl">
             <span className="relative whitespace-nowrap">
               <SwirlyDoodle className="absolute left-0 top-1/2 h-[1em] w-full fill-blue-400"/>
-              <span className="relative">Unsere Vorträge</span>
+              <span className="relative">Unsere Leistungen</span>
             </span>{' '}
                         im Überblick
                     </h2>
                     <p className="mt-4 text-lg text-slate-400">
-                        Wir erstellen individuelle Angebote für: Firmen, Führungskräfte, Politiker & Co.
+                        Wir bieten maßgeschneiderte Lösungen für Unternehmen, Führungskräfte und Politiker. Unsere
+                        Dienstleistungen umfassen Weiterbildungen für Teams, individuelle KI-Beratung, Identifikation
+                        und Entwicklung von Anwendungsfällen, sowie die Erstellung von AI-Prototypen und MVPs.
                     </p>
                     <p className="text-lg text-slate-400">
-                        Neben unseren drei Standardvorträgen bieten wir auch individuelle Präsentationen an.
+                        Neben unseren beliebten Grundlagenschulungen wie "KI Intuition" und "ChatGPT Expert" bieten wir
+                        individuell angepasste Vorträge, die exakt auf Ihre Bedürfnisse zugeschnitten sind.
                     </p>
                 </div>
                 <div
                     className="-mx-4 mt-16 grid max-w-2xl grid-cols-1 gap-y-10 sm:mx-auto lg:-mx-8 lg:max-w-none lg:grid-cols-3 xl:mx-0 xl:gap-x-8">
                     <Plan
                         name="Level: Basics"
-                        price="LLM Intuition"
-                        description="Wie genau funktionieren die Algorithmen hinter ChatGPT?"
+                        price="KI Intuition"
+                        description="Wie funktioniert Künstliche Intelligenz?"
                         href="#contact"
                         features={[
-                            'Grundlagen von Large Language Models',
-                            'Daten Center & Cloud Computing',
-                            'Einführung in die GPT-Technologie',
-                            'Relevante Anwendungsbeispiele',
-                            'AI Safety: Chancen & Risiken',
+                            'Was ist künstliche Intelligenz?',
+                            'Wie erfolgt das Training von KI-Modellen?',
+                            'Live Demonstration einer echten KI vor Ort',
+                            'Überblick über Bereiche wie CV, NLP und RL',
+                            'Zu was ist KI heute fähig - zu was nicht',
                             'Q&A-Segment',
                         ]}
                     />
                     <Plan
                         featured
                         name="Level: Basics"
-                        price="KI Intuition"
-                        description="Wie funktioniert Künstliche Intelligenz?"
+                        price="ChatGPT Expert"
+                        description="Wie genau funktionieren die Algorithmen hinter ChatGPT?"
                         href="#contact"
                         features={[
-                            'Was ist künstliche Intelligenz',
-                            'Wie funktioniert das Training',
-                            'Training anhand eines echten Beispiels',
-                            'Einblicke in die unterschiedlichen Bereiche (CV, NLP, RL)',
-                            'Entwickeln einer echten KI',
-                            'Zu was ist KI heute fähig',
+                            'Grundlagen von Large Language Models',
+                            'Einführung in die GPT-Technologie',
+                            'Praxisnahe Anwendungsbeispiele',
+                            'Fortgeschrittene Nutzung mit ChatGPT PLUS',
+                            'Prompt Engineering',
                             'Q&A-Segment',
                         ]}
                     />
                     <Plan
-                        name="Level: Fortgeschritten"
-                        price="LLM Expert"
-                        description="Einblicke in die Herausforderungen bei der Entwicklung von LLM."
+                        name="Individuelle Beratung & Projekte"
+                        price="AI Advisory"
+                        description="Spezialisiert auf individuelle KI-Projekte und Beratung."
                         href="#contact"
                         features={[
-                            'Deep Dive in Language Models',
-                            'Herausforderungen bei der Skalierung von Milliarden Parametern',
-                            'Technische Details und Architekturen',
-                            'RAG Systeme mit LangChain',
-                            'Diskussion aktueller Forschung',
-                            'Q&A-Segment',
+                            'Beratung und Strategieentwicklung',
+                            'Prototypenentwicklung (PoCs, MVPs)',
+                            'Identifikation von KI-Anwendungsfällen',
+                            'Technische Umsetzung maßgeschneiderter Lösungen',
+                            'Skalierung und Optimierung von KI-Projekten',
+                            'Individuelle Schulungen und Workshops',
                         ]}
                     />
                 </div>
@@ -170,25 +172,19 @@ export function Pricing() {
                         Teilnahmezertifikat. Außerdem erhalten Sie Zugriff auf die Unterlagen in Form eines Cheatsheets.
                         Die Vorträge werden auf Deutsch und Englisch angeboten.
                     </p>
-                    <p className="text-lg text-slate-400 mt-8">
-                        Neben Vorträgen und Workshops bieten wir auch Beratung in Form von AI Advisory an. Wir
-                        identifizieren und entwickeln mit Ihnen zusammen konkrete Use Cases für Ihr Unternehmen und Ihre
-                        Branche. Darüber hinaus bieten wir auch die darauffolgende Entwicklung eines vollumfänglichen
-                        KI-Systems an.
-                    </p>
                 </div>
                 {/* Add YouTube iframe here */}
-            <div className="mt-10 flex justify-center">
-                <iframe
-                    className="rounded-lg"
-                    width="800"
-                    height="500"
-                    src="https://www.youtube.com/embed/U8v1mjLcrYw"
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                ></iframe>
-            </div>
+                <div className="mt-10 flex justify-center">
+                    <iframe
+                        className="rounded-lg"
+                        width="800"
+                        height="500"
+                        src="https://www.youtube.com/embed/U8v1mjLcrYw"
+                        frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                    ></iframe>
+                </div>
 
                 {/*<Container className="relative z-10">*/}
                 {/*    <div className="mx-auto max-w-lg text-center mt-8">*/}

@@ -13,7 +13,7 @@ const features = [
         summary:
             'Erfahrung trifft Leidenschaft für KI',
         description:
-            'Mit jahrelanger Erfahrung im Bereich der Künstlichen Intelligenz und einem fundierten technischen Background biete ich Ihnen tiefgehende und praxisorientierte Einblicke.',
+            'Mit jahrelanger Erfahrung im Bereich der Künstlichen Intelligenz und einem fundierten technischen Background als M. Sc. Informatik biete ich Ihnen tiefgehende und praxisorientierte Einblicke.',
         image: "/first.JPG",
         width: 600,
         height: 400,
