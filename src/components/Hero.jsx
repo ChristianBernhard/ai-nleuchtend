@@ -45,7 +45,7 @@ export function Hero() {
                             width: 'calc(200% + 4rem)', // This assumes the total width of logos is half the container's size
                         }}
                     >
-                        {/* Repeat the logo groups twice for a seamless animation */}
+                        {/* Repeat the logo groups twice for a seamless animation ignore */}
                         {[...Array(3)].flatMap(_ => [
                             [
                                 {name: 'KVB', logo: logoKVB},
