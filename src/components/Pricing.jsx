@@ -112,12 +112,11 @@ export function Pricing() {
                     </h2>
                     <p className="mt-4 text-lg text-slate-400">
                         Wir bieten maßgeschneiderte Lösungen für Unternehmen, Führungskräfte und Politiker. Unsere
-                        Dienstleistungen umfassen: Impulsvorträge, Weiterbildungen für Teams, individuelle KI-Beratung, Identifikation
+                        Dienstleistungen umfassen: Impulsvorträge, Weiterbildungen für Teams, individuelle KI-Beratung,
+                        Identifikation
                         und Entwicklung von Anwendungsfällen, sowie die Erstellung von AI-Prototypen und MVPs.
-                    </p>
-                    <p className="text-lg text-slate-400">
-                        Neben unseren beliebten Grundlagenschulungen wie "KI Intuition" und "ChatGPT Expert" bieten wir
-                        individuell angepasste Vorträge, die exakt auf Ihre Bedürfnisse zugeschnitten sind.
+                        Neben unseren beliebten Grundlagenschulungen wie &quot;KI Intuition&quot; und &quot;ChatGPT
+                        Expert&quot; bieten wir individuell angepasste Vorträge, die exakt auf Ihre Bedürfnisse zugeschnitten sind.
                     </p>
                 </div>
                 <div
