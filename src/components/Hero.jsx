@@ -6,6 +6,9 @@ import logoVHS from 'public/logos/vhs.png'
 import logoKVB from 'public/logos/kvb.png'
 import logoHPConsulting from 'public/logos/hpconsulting.png'
 import logoBeckAkademie from 'public/logos/beckakademie.png'
+import logoExpedia from 'public/logos/expedia.png'
+
+
 
 export function Hero() {
     return (
@@ -56,6 +59,7 @@ export function Hero() {
                                 {name: 'Wulff', logo: logoWulff},
                                 {name: 'HPConsulting', logo: logoHPConsulting},
                                 {name: 'BeckAkademie', logo: logoBeckAkademie},
+                                {name: 'Expedia', logo: logoExpedia},
 
                             ],
                         ]).map((group, groupIndex) => (
