@@ -14,7 +14,7 @@ const features = [
             'Erfahrung trifft Leidenschaft für KI',
         description:
             'Mit jahrelanger Erfahrung im Bereich der Künstlichen Intelligenz und einem fundierten technischen Background als M. Sc. Informatik biete ich Ihnen tiefgehende und praxisorientierte Einblicke.',
-        image: "/first.JPG",
+        image: "/beck_1.png",
         width: 600,
         height: 400,
         icon: function ContactsIcon() {
