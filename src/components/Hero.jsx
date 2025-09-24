@@ -3,6 +3,7 @@
 import Image from 'next/image'
 import { Container } from '@/components/Container'
 import { Typewriter } from 'react-simple-typewriter'
+import { NewsletterButton } from '@/components/NewsletterButton'
 
 
 import logoHPMedizin from 'public/logos/hpmedizin.png'
@@ -52,6 +53,15 @@ export function Hero() {
                 Vergessen Sie kurzzeitige Trends und Buzzwords: Durch uns bekommen Sie fundierte Einblicke und ein
                 tiefgreifendes Verständnis für die Welt der KI.
             </p>
+
+            <div className="mt-10 flex flex-col items-center gap-3">
+                <div className="text-center">
+                    <p className="text-sm text-slate-600">
+                        <span className="font-semibold text-blue-600">Brand neu:</span> Dein Update zu Künstlicher Intelligenz - klar, aktuell, relevant.
+                    </p>
+                </div>
+                <NewsletterButton />
+            </div>
 
             <div className="mt-20 lg:mt-16">
                 <p className="font-display text-base text-slate-900 mb-8">
