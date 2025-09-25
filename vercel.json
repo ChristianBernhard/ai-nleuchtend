@@ -1,0 +1,14 @@
+{
+  "build": {
+    "env": {
+      "VERCEL_NODE_VERSION": "22"
+    }
+  },
+  "functions": {
+    "api/**": {
+      "runtime": "nodejs22.x"
+    }
+  }
+}
+
+
