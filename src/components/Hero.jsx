@@ -52,6 +52,7 @@ export function Hero() {
             <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700">
                 Vergessen Sie kurzzeitige Trends und Buzzwords: Durch uns bekommen Sie fundierte Einblicke und ein
                 tiefgreifendes Verständnis für die Welt der KI.
+                
             </p>
 
             <div className="mt-10 flex flex-col items-center gap-3">
