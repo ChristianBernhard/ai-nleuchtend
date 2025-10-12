@@ -88,7 +88,7 @@ export default function DataProtection() {
               <h2 className="text-2xl font-bold text-slate-900 mb-6">Cookies</h2>
               <div className="space-y-4 text-slate-700 leading-relaxed">
                 <p>
-                  Wie viele andere Webseiten verwenden wir auch so genannte „Cookies". Cookies sind kleine Textdateien, die von einem Websiteserver auf Ihre Festplatte übertragen werden. Hierdurch erhalten wir automatisch bestimmte Daten wie z. B. IP-Adresse, verwendeter Browser, Betriebssystem und Ihre Verbindung zum Internet.
+                  Wie viele andere Webseiten verwenden wir auch so genannte &quot;Cookies&quot;. Cookies sind kleine Textdateien, die von einem Websiteserver auf Ihre Festplatte übertragen werden. Hierdurch erhalten wir automatisch bestimmte Daten wie z. B. IP-Adresse, verwendeter Browser, Betriebssystem und Ihre Verbindung zum Internet.
                 </p>
                 <p>
                   Cookies können nicht verwendet werden, um Programme zu starten oder Viren auf einen Computer zu übertragen. Anhand der in Cookies enthaltenen Informationen können wir Ihnen die Navigation erleichtern und die korrekte Anzeige unserer Webseiten ermöglichen.
@@ -109,7 +109,7 @@ export default function DataProtection() {
                 <div>
                   <h3 className="font-bold text-slate-900 mb-2">Art und Zweck der Verarbeitung:</h3>
                   <p>
-                    Diese Website benutzt Google Analytics, einen Webanalysedienst der Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043 USA (nachfolgend: „Google"). Google Analytics verwendet sog. „Cookies", also Textdateien, die auf Ihrem Computer gespeichert werden und die eine Analyse der Benutzung der Webseite durch Sie ermöglichen.
+                    Diese Website benutzt Google Analytics, einen Webanalysedienst der Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043 USA (nachfolgend: &quot;Google&quot;). Google Analytics verwendet sog. &quot;Cookies&quot;, also Textdateien, die auf Ihrem Computer gespeichert werden und die eine Analyse der Benutzung der Webseite durch Sie ermöglichen.
                   </p>
                 </div>
                 <div>
@@ -130,7 +130,7 @@ export default function DataProtection() {
               <h2 className="text-2xl font-bold text-slate-900 mb-6">Verwendung von Scriptbibliotheken (Google Webfonts)</h2>
               <div className="space-y-4 text-slate-700 leading-relaxed">
                 <p>
-                  Um unsere Inhalte browserübergreifend korrekt und grafisch ansprechend darzustellen, verwenden wir auf dieser Website „Google Web Fonts" der Google LLC zur Darstellung von Schriften.
+                  Um unsere Inhalte browserübergreifend korrekt und grafisch ansprechend darzustellen, verwenden wir auf dieser Website &quot;Google Web Fonts&quot; der Google LLC zur Darstellung von Schriften.
                 </p>
                 <p>
                   Die Datenschutzrichtlinie des Bibliothekbetreibers Google finden Sie hier: <a href="https://www.google.com/policies/privacy/" className="text-blue-600 hover:text-blue-800 underline">https://www.google.com/policies/privacy/</a>
