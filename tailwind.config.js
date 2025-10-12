@@ -30,6 +30,13 @@ module.exports = {
             maxWidth: {
                 '2xl': '40rem',
             },
+            colors: {
+                'ainleuchtend': {
+                    primary: '#2563EB',
+                    dark: '#0f172A',
+                    light: '#ffffff'
+                }
+            },
         },
     },
     plugins: [formsPlugin, headlessuiPlugin],

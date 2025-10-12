@@ -194,13 +194,11 @@ function FeaturesDesktop() {
                                     <div
                                         className="w-[600px] h-[400px] overflow-hidden rounded-xl bg-white shadow-lg shadow-slate-900/5 ring-1 ring-slate-500/10">
                                         <Image
-                                            className="w-full h-full"
+                                            className="w-full h-full object-cover object-center"
                                             src={feature.image}
                                             alt=""
-                                            width={600}  // added
-                                            height={400}  // added
-                                            objectFit="cover"
-                                            objectPosition="center"
+                                            width={600}
+                                            height={400}
                                         />
                                     </div>
                                 </Tab.Panel>

@@ -8,9 +8,18 @@ import {Container} from '@/components/Container'
 import {Logo} from '@/components/Logo'
 import {NavLink} from '@/components/NavLink'
 
-function MobileNavLink({href, children}) {
+function MobileNavLink({href, children, highlighted = false}) {
     return (
-        <Popover.Button as={Link} href={href} className="block w-full p-2">
+        <Popover.Button 
+            as={Link} 
+            href={href} 
+            className={clsx(
+                "block w-full p-2 rounded-lg transition-all",
+                highlighted 
+                    ? "bg-gradient-to-r from-blue-600 to-blue-700 text-white font-semibold" 
+                    : ""
+            )}
+        >
             {children}
         </Popover.Button>
     )
@@ -81,6 +90,7 @@ function MobileNavigation() {
                         <MobileNavLink href="#pricing">Angebote</MobileNavLink>
                         <MobileNavLink href="#contact">Kontakt</MobileNavLink>
                         <MobileNavLink href="#faq">FAQ</MobileNavLink>
+                        <MobileNavLink href="/agent-demo" highlighted>Agent Demo</MobileNavLink>
                         {/*<hr className="m-2 border-slate-300/40" />*/}
                         {/*<MobileNavLink href="/login">Sign in</MobileNavLink>*/}
                     </Popover.Panel>
@@ -104,6 +114,7 @@ export function Header() {
                             <NavLink href="#pricing">Angebote</NavLink>
                             <NavLink href="#contact">Kontakt</NavLink>
                             <NavLink href="#faq">FAQ</NavLink>
+                            <NavLink href="/agent-demo" highlighted>Agent Demo</NavLink>
                         </div>
                     </div>
                     <div className="flex items-center gap-x-5 md:gap-x-8">
