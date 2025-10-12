@@ -4,7 +4,6 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { ChatMessage } from '@/components/agent-demo/ChatMessage';
 import { StreamingText } from '@/components/agent-demo/StreamingText';
-import { HITLCard } from '@/components/agent-demo/HITLCard';
 import { useRunner } from '@/hooks/useRunner';
 import { loadContent } from '@/utils/agent-demo-content';
 import { FileText, Download, Brain, Sparkles, Settings, Zap, Users, Target, Award, Lightbulb, ChevronRight, Play, Code, BarChart3, TrendingUp, PieChart } from 'lucide-react';
@@ -791,9 +790,6 @@ print("✓ Alle Charts erfolgreich generiert!")
             </div>
           </div>
         </motion.div>
-
-        {/* HITL Card */}
-        <HITLCard isCollapsed={true} />
 
         {/* Footer */}
         <motion.div 
