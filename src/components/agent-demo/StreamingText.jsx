@@ -67,7 +67,7 @@ export function StreamingText({
       timeoutsRef.current.forEach(id => clearTimeout(id));
       timeoutsRef.current = [];
     };
-  }, [text, speed, delay]);
+  }, [text, speed, delay, onComplete]);
 
   return (
     <span className={className}>

@@ -706,7 +706,7 @@ print("✓ Alle Charts erfolgreich generiert!")
                         <div className="mb-10">
                           <div className="flex items-center justify-center gap-2 mb-6">
                             <Target className="w-5 h-5 text-ainleuchtend-primary" />
-                            <h3 className="font-semibold text-gray-700 text-lg">So funktioniert's:</h3>
+                            <h3 className="font-semibold text-gray-700 text-lg">So funktioniert&apos;s:</h3>
                           </div>
                           <div className="grid md:grid-cols-2 gap-4">
                             {[

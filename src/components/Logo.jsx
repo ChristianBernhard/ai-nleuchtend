@@ -1,5 +1,14 @@
-export function Logo({ src, alt, ...props }) {
+import Image from 'next/image'
+
+export function Logo({ src, alt, className, ...props }) {
   return (
-    <img src={src} alt={alt} {...props} />
+    <Image 
+      src={src} 
+      alt={alt} 
+      width={40} 
+      height={40} 
+      className={className}
+      {...props} 
+    />
   );
 }
