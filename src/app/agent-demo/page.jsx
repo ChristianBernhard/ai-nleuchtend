@@ -8,6 +8,8 @@ import { useRunner } from '@/hooks/useRunner';
 import { loadContent } from '@/utils/agent-demo-content';
 import { FileText, Download, Brain, Sparkles, Settings, Zap, Users, Target, Award, Lightbulb, ChevronRight, Play, Code, BarChart3, TrendingUp, PieChart } from 'lucide-react';
 import Link from 'next/link';
+import { SimpleHeader } from '@/components/SimpleHeader';
+import { SimpleFooter } from '@/components/SimpleFooter';
 
 export default function AgentDemoPage() {
   const [appState, setAppState] = useState('idle');
@@ -76,17 +78,11 @@ export default function AgentDemoPage() {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-white via-blue-50/30 to-slate-50 p-4">
-      <div className="max-w-6xl mx-auto">
-        {/* Back to Home Link */}
-        <div className="mb-4">
-          <Link 
-            href="/"
-            className="inline-flex items-center gap-2 text-sm text-gray-600 hover:text-ainleuchtend-primary transition-colors"
-          >
-            ← Zurück zur Startseite
-          </Link>
-        </div>
+    <>
+      <SimpleHeader />
+      <div className="min-h-screen bg-gradient-to-br from-white via-blue-50/30 to-slate-50 flex flex-col">
+        <div className="flex-1 p-4">
+          <div className="max-w-6xl mx-auto">
 
         {/* Enhanced Header without Logo */}
         <motion.div 
@@ -191,10 +187,10 @@ export default function AgentDemoPage() {
               </div>
               <div>
                 <h2 className="font-bold text-ainleuchtend-dark text-lg">Markt- & Webanalyse-Agent</h2>
-                <p className="text-xs text-gray-500 flex items-center gap-1">
+                <div className="text-xs text-gray-500 flex items-center gap-1">
                   <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
                   Bereit für Ihre Analyse
-                </p>
+                </div>
               </div>
             </div>
             <div className="flex items-center gap-3">
@@ -736,10 +732,10 @@ print("✓ Alle Charts erfolgreich generiert!")
                         {/* Enhanced Call to Action */}
                         <div className="text-center">
                           <div className="bg-gradient-to-r from-ainleuchtend-primary/10 to-blue-600/10 rounded-2xl p-6 mb-6">
-                            <p className="text-gray-700 text-lg mb-2 flex items-center justify-center gap-2">
+                            <div className="text-gray-700 text-lg mb-2 flex items-center justify-center gap-2">
                               <Play className="w-5 h-5 text-ainleuchtend-primary" />
                               <span className="font-semibold">Klicken Sie Starten,</span> um die Marktanalyse zu beginnen
-                            </p>
+                            </div>
                             <div className="inline-flex items-center text-sm text-gray-600 bg-white/70 px-4 py-2 rounded-full backdrop-blur-sm border border-blue-200/50">
                               <motion.div 
                                 className="w-2 h-2 bg-green-400 rounded-full mr-2"
@@ -790,23 +786,12 @@ print("✓ Alle Charts erfolgreich generiert!")
             </div>
           </div>
         </motion.div>
-
-        {/* Footer */}
-        <motion.div 
-          className="text-center mt-8 text-sm text-gray-500"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 0.6, delay: 0.8 }}
-        >
-          <p>AI-nleuchtend Agent Demo • Markt- & Webanalyse Edition • Powered by AI</p>
-          <p className="mt-2">
-            <a href="https://www.ainleuchtend.de" target="_blank" rel="noopener noreferrer" className="text-ainleuchtend-primary hover:underline">
-              www.ainleuchtend.de
-            </a> • Tel.: 0177-8028796 • christianbernhard089@gmail.com
-          </p>
-        </motion.div>
+        
+          </div>
+        </div>
+        <SimpleFooter />
       </div>
-    </div>
+    </>
   );
 }
 
