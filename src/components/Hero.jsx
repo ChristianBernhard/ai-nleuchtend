@@ -5,6 +5,7 @@ import { Container } from '@/components/Container'
 import { Typewriter } from 'react-simple-typewriter'
 import { NewsletterButton } from '@/components/NewsletterButton'
 import { AnimatedCounter } from '@/components/AnimatedCounter'
+import { AnimatedParticles } from '@/components/AnimatedParticles'
 
 
 import logoHPMedizin from 'public/logos/hpmedizin.png'
@@ -32,9 +33,14 @@ const logos = [
 export function Hero() {
     return (
         <Container className="pb-10 pt-20 text-center lg:pt-16 relative">
+            {/* Animated Particles Background */}
+            <div className="absolute inset-0 -z-10 overflow-hidden">
+                <AnimatedParticles />
+            </div>
+
             <h1 className="mx-auto max-w-4xl font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-medium tracking-tight text-slate-900 sm:tracking-normal relative z-10 flex flex-col items-center">
     <span className="block">Wir machen</span>
-    <span className="relative min-h-[1.2em] text-blue-600">
+    <span className="relative min-h-[1.2em] bg-gradient-to-r from-blue-600 via-blue-500 to-cyan-500 bg-clip-text text-transparent animate-gradient" style={{ backgroundSize: '200% 200%' }}>
         <span className="relative block min-w-[310px] text-center">
             <Typewriter
                 words={['Künstliche Intelligenz', 'ChatGPT', 'AI Agents', 'KI-Automatisierung', 'Innovation']}

@@ -37,6 +37,26 @@ module.exports = {
                     light: '#ffffff'
                 }
             },
+            animation: {
+                'infinite-scroll': 'infinite-scroll 40s linear infinite',
+                'gradient': 'gradient 8s linear infinite',
+            },
+            keyframes: {
+                'infinite-scroll': {
+                    '0%': { transform: 'translateX(0)' },
+                    '100%': { transform: 'translateX(-50%)' },
+                },
+                'gradient': {
+                    '0%, 100%': {
+                        'background-size': '200% 200%',
+                        'background-position': 'left center'
+                    },
+                    '50%': {
+                        'background-size': '200% 200%',
+                        'background-position': 'right center'
+                    },
+                },
+            },
         },
     },
     plugins: [formsPlugin, headlessuiPlugin],

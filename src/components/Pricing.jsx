@@ -1,7 +1,10 @@
+'use client'
+
 import clsx from 'clsx'
 
 import {Button} from '@/components/Button'
 import {Container} from '@/components/Container'
+import {ScrollReveal, StaggerContainer, StaggerItem} from '@/components/ScrollReveal'
 
 function SwirlyDoodle(props) {
     return (
@@ -102,73 +105,85 @@ export function Pricing() {
             className="bg-slate-900 py-20 sm:py-16"
         >
             <Container>
-                <div className="md:text-center">
-                    <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl">
-            <span className="relative whitespace-nowrap">
-              <SwirlyDoodle className="absolute left-0 top-1/2 h-[1em] w-full fill-blue-400"/>
-              <span className="relative">Unsere Leistungen</span>
-            </span>{' '}
-                        im Überblick
-                    </h2>
-                    <p className="mt-4 text-lg text-slate-400">
-                        Von inspirierenden Keynotes bis zu praxisnahen Workshops – KI verständlich für jeden.
-                        Ob Einsteiger oder Fortgeschrittene, Führungskräfte oder Teams: Wir vermitteln KI-Wissen, 
-                        das Sie direkt anwenden können. Jetzt mit aktuellen Themen wie AI Agents und Automatisierung.
-                    </p>
-                </div>
-                <div
-                    className="-mx-4 mt-16 grid max-w-2xl grid-cols-1 gap-y-10 sm:mx-auto lg:-mx-8 lg:max-w-none lg:grid-cols-3 xl:mx-0 xl:gap-x-8">
-                    <Plan
-                        name="Grundlagen"
-                        price="KI Intuition"
-                        description="Wie funktioniert Künstliche Intelligenz?"
-                        href="#contact"
-                        features={[
-                            'Was ist Künstliche Intelligenz?',
-                            'Wie werden KI-Modelle trainiert?',
-                            'Live-Demo echter KI-Anwendungen',
-                            'Überblick: CV, NLP, moderne Tools',
-                            'Was kann KI heute – was nicht?',
-                            'Q&A-Segment',
-                        ]}
-                    />
-                    <Plan
-                        featured
-                        name="Praxis-Workshop"
-                        price="ChatGPT Expert"
-                        description="Moderne KI-Tools richtig nutzen"
-                        href="#contact"
-                        features={[
-                            'ChatGPT, Claude & Co. effektiv nutzen',
-                            'Prompt Engineering für bessere Ergebnisse',
-                            'AI Agents & Automatisierung verstehen',
-                            'Praktische Anwendungsfälle',
-                            'KI im Arbeitsalltag integrieren',
-                            'Hands-on & Q&A',
-                        ]}
-                    />
-                    <Plan
-                        name="Beratung & Projekte"
-                        price="AI Advisory"
-                        description="Individuelle KI-Beratung für Ihr Unternehmen"
-                        href="#contact"
-                        features={[
-                            'KI-Strategie und Beratung',
-                            'Identifikation von Anwendungsfällen',
-                            'Prototypen-Entwicklung (PoCs, MVPs)',
-                            'Maßgeschneiderte KI-Lösungen',
-                            'Schulungen für Ihr Team',
-                            'Langfristige Begleitung',
-                        ]}
-                    />
-                </div>
-                <div className="md:text-center mt-16">
-                    <p className="text-lg text-slate-400">
-                        Zusätzlich zu den Vorträgen erhalten die Teilnehmer auf Wunsch ein personalisiertes
-                        Teilnahmezertifikat. Außerdem erhalten Sie Zugriff auf die Unterlagen in Form eines Cheatsheets.
-                        Die Vorträge werden auf Deutsch und Englisch angeboten.
-                    </p>
-                </div>
+                <ScrollReveal>
+                    <div className="md:text-center">
+                        <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl">
+                <span className="relative whitespace-nowrap">
+                  <SwirlyDoodle className="absolute left-0 top-1/2 h-[1em] w-full fill-blue-400"/>
+                  <span className="relative">Unsere Leistungen</span>
+                </span>{' '}
+                            im Überblick
+                        </h2>
+                        <p className="mt-4 text-lg text-slate-400">
+                            Von inspirierenden Keynotes bis zu praxisnahen Workshops – KI verständlich für jeden.
+                            Ob Einsteiger oder Fortgeschrittene, Führungskräfte oder Teams: Wir vermitteln KI-Wissen, 
+                            das Sie direkt anwenden können. Jetzt mit aktuellen Themen wie AI Agents und Automatisierung.
+                        </p>
+                    </div>
+                </ScrollReveal>
+                <StaggerContainer staggerDelay={0.15}>
+                    <div
+                        className="-mx-4 mt-16 grid max-w-2xl grid-cols-1 gap-y-10 sm:mx-auto lg:-mx-8 lg:max-w-none lg:grid-cols-3 xl:mx-0 xl:gap-x-8">
+                        <StaggerItem>
+                            <Plan
+                                name="Grundlagen"
+                                price="KI Intuition"
+                                description="Wie funktioniert Künstliche Intelligenz?"
+                                href="#contact"
+                                features={[
+                                    'Was ist Künstliche Intelligenz?',
+                                    'Wie werden KI-Modelle trainiert?',
+                                    'Live-Demo echter KI-Anwendungen',
+                                    'Überblick: CV, NLP, moderne Tools',
+                                    'Was kann KI heute – was nicht?',
+                                    'Q&A-Segment',
+                                ]}
+                            />
+                        </StaggerItem>
+                        <StaggerItem>
+                            <Plan
+                                featured
+                                name="Praxis-Workshop"
+                                price="ChatGPT Expert"
+                                description="Moderne KI-Tools richtig nutzen"
+                                href="#contact"
+                                features={[
+                                    'ChatGPT, Claude & Co. effektiv nutzen',
+                                    'Prompt Engineering für bessere Ergebnisse',
+                                    'AI Agents & Automatisierung verstehen',
+                                    'Praktische Anwendungsfälle',
+                                    'KI im Arbeitsalltag integrieren',
+                                    'Hands-on & Q&A',
+                                ]}
+                            />
+                        </StaggerItem>
+                        <StaggerItem>
+                            <Plan
+                                name="Beratung & Projekte"
+                                price="AI Advisory"
+                                description="Individuelle KI-Beratung für Ihr Unternehmen"
+                                href="#contact"
+                                features={[
+                                    'KI-Strategie und Beratung',
+                                    'Identifikation von Anwendungsfällen',
+                                    'Prototypen-Entwicklung (PoCs, MVPs)',
+                                    'Maßgeschneiderte KI-Lösungen',
+                                    'Schulungen für Ihr Team',
+                                    'Langfristige Begleitung',
+                                ]}
+                            />
+                        </StaggerItem>
+                    </div>
+                </StaggerContainer>
+                <ScrollReveal delay={0.3}>
+                    <div className="md:text-center mt-16">
+                        <p className="text-lg text-slate-400">
+                            Zusätzlich zu den Vorträgen erhalten die Teilnehmer auf Wunsch ein personalisiertes
+                            Teilnahmezertifikat. Außerdem erhalten Sie Zugriff auf die Unterlagen in Form eines Cheatsheets.
+                            Die Vorträge werden auf Deutsch und Englisch angeboten.
+                        </p>
+                    </div>
+                </ScrollReveal>
             </Container>
         </section>
     )

@@ -6,6 +6,7 @@ import {Tab} from '@headlessui/react'
 import clsx from 'clsx'
 
 import {Container} from '@/components/Container'
+import {ScrollReveal, StaggerContainer, StaggerItem} from '@/components/ScrollReveal'
 
 const features = [
     {
@@ -221,17 +222,23 @@ export function SecondaryFeatures() {
             className="pb-14 pt-10 sm:pb-20 sm:pt-16 lg:pb-32"
         >
             <Container>
-                <div className="mx-auto max-w-2xl md:text-center">
-                    <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl mb-2 sm:mb-4">
-                        Lernen Sie uns kennen!
-                    </h2>
+                <ScrollReveal>
+                    <div className="mx-auto max-w-2xl md:text-center">
+                        <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl mb-2 sm:mb-4">
+                            Lernen Sie uns kennen!
+                        </h2>
 
-                    {/*<p className="mt-4 text-lg tracking-tight text-slate-700">*/}
-                    {/*  Entdecken Sie, was uns ausmacht und wie wir Ihren Anforderungen gerecht werden.*/}
-                    {/*</p>*/}
-                </div>
-                <FeaturesMobile/>
-                <FeaturesDesktop/>
+                        {/*<p className="mt-4 text-lg tracking-tight text-slate-700">*/}
+                        {/*  Entdecken Sie, was uns ausmacht und wie wir Ihren Anforderungen gerecht werden.*/}
+                        {/*</p>*/}
+                    </div>
+                </ScrollReveal>
+                <ScrollReveal delay={0.2}>
+                    <FeaturesMobile/>
+                </ScrollReveal>
+                <ScrollReveal delay={0.2}>
+                    <FeaturesDesktop/>
+                </ScrollReveal>
             </Container>
         </section>
     )
