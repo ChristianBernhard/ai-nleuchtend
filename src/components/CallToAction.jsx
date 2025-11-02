@@ -4,41 +4,63 @@ export function CallToAction() {
     return (
         <section
             id="contact"
-            className="relative overflow-hidden bg-slate-900"
+            className="relative overflow-hidden bg-slate-900 py-20 sm:py-24"
         >
-            {/*<div*/}
-            {/*  style={{*/}
-            {/*    position: 'absolute',*/}
-            {/*    top: 0,*/}
-            {/*    left: 0,*/}
-            {/*    width: '100%',*/}
-            {/*    height: '100%',*/}
-            {/*    zIndex: 0,*/}
-            {/*    maskImage: 'radial-gradient(circle at center, black 30%, transparent 70%)',*/}
-            {/*    WebkitMaskImage: 'radial-gradient(circle at center, black 30%, transparent 70%)',*/}
-            {/*  }}*/}
-            {/*>*/}
-            {/*  <video*/}
-            {/*    autoPlay*/}
-            {/*    loop*/}
-            {/*    muted*/}
-            {/*    style={{ opacity: 0.5 }}*/}
-            {/*    className="w-full h-full object-cover"*/}
-            {/*  >*/}
-            {/*    <source src="/hd_web.mp4" type="video/mp4" />*/}
-            {/*  </video>*/}
-            {/*</div>*/}
-            <Container className="relative z-10 mb-16">
-                <div className="mx-auto max-w-lg text-center">
+            <Container className="relative z-10">
+                <div className="mx-auto max-w-2xl text-center">
                     <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl">
-                        Kontaktieren Sie uns jetzt!
+                        Kontaktieren Sie uns
                     </h2>
-                    <p className="mt-4 text-lg tracking-tight text-white">
-                        Tel.: 0177-8028796
+                    <p className="mt-4 text-lg text-slate-400">
+                        Wir freuen uns auf Ihre Anfrage für ein unverbindliches Gespräch.
                     </p>
-                    <p className="mt-4 text-lg tracking-tight text-white">
-                        Email: christianbernhard089@gmail.com
-                    </p>
+                </div>
+
+                <div className="mx-auto mt-10 grid max-w-3xl grid-cols-1 gap-4 sm:grid-cols-3">
+                    {/* Email Card */}
+                    <div className="flex flex-col items-center rounded-xl bg-slate-800/50 p-6 ring-1 ring-slate-700/50">
+                        <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-blue-500/10">
+                            <svg className="h-5 w-5 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                            </svg>
+                        </div>
+                        <h3 className="mt-3 text-sm font-medium text-white">
+                            E-Mail
+                        </h3>
+                        <p className="mt-1 text-xs text-center text-slate-400 break-all">
+                            christianbernhard089@gmail.com
+                        </p>
+                    </div>
+
+                    {/* Phone Card */}
+                    <div className="flex flex-col items-center rounded-xl bg-slate-800/50 p-6 ring-1 ring-slate-700/50">
+                        <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-blue-500/10">
+                            <svg className="h-5 w-5 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                            </svg>
+                        </div>
+                        <h3 className="mt-3 text-sm font-medium text-white">
+                            Telefon
+                        </h3>
+                        <p className="mt-1 text-xs text-slate-400">
+                            0177-8028796
+                        </p>
+                    </div>
+
+                    {/* LinkedIn Card */}
+                    <div className="flex flex-col items-center rounded-xl bg-slate-800/50 p-6 ring-1 ring-slate-700/50">
+                        <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-blue-500/10">
+                            <svg className="h-5 w-5 text-blue-400" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                            </svg>
+                        </div>
+                        <h3 className="mt-3 text-sm font-medium text-white">
+                            LinkedIn
+                        </h3>
+                        <p className="mt-1 text-xs text-slate-400">
+                            AInleuchtend
+                        </p>
+                    </div>
                 </div>
             </Container>
         </section>

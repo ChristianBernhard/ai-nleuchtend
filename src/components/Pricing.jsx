@@ -111,57 +111,54 @@ export function Pricing() {
                         im Überblick
                     </h2>
                     <p className="mt-4 text-lg text-slate-400">
-                        Wir bieten maßgeschneiderte Lösungen für Unternehmen, Führungskräfte und Politiker. Unsere
-                        Dienstleistungen umfassen: Impulsvorträge, Weiterbildungen für Teams, individuelle KI-Beratung,
-                        Identifikation
-                        und Entwicklung von Anwendungsfällen, sowie die Erstellung von AI-Prototypen und MVPs.
-                        Neben unseren beliebten Grundlagenschulungen wie &quot;KI Intuition&quot; und &quot;ChatGPT
-                        Expert&quot; bieten wir individuell angepasste Vorträge, die exakt auf Ihre Bedürfnisse zugeschnitten sind.
+                        Von inspirierenden Keynotes bis zu praxisnahen Workshops – KI verständlich für jeden.
+                        Ob Einsteiger oder Fortgeschrittene, Führungskräfte oder Teams: Wir vermitteln KI-Wissen, 
+                        das Sie direkt anwenden können. Jetzt mit aktuellen Themen wie AI Agents und Automatisierung.
                     </p>
                 </div>
                 <div
                     className="-mx-4 mt-16 grid max-w-2xl grid-cols-1 gap-y-10 sm:mx-auto lg:-mx-8 lg:max-w-none lg:grid-cols-3 xl:mx-0 xl:gap-x-8">
                     <Plan
-                        name="Level: Basics"
+                        name="Grundlagen"
                         price="KI Intuition"
                         description="Wie funktioniert Künstliche Intelligenz?"
                         href="#contact"
                         features={[
-                            'Was ist künstliche Intelligenz?',
-                            'Wie erfolgt das Training von KI-Modellen?',
-                            'Live Demonstration einer echten KI vor Ort',
-                            'Überblick über Bereiche wie CV, NLP und RL',
-                            'Zu was ist KI heute fähig - zu was nicht',
+                            'Was ist Künstliche Intelligenz?',
+                            'Wie werden KI-Modelle trainiert?',
+                            'Live-Demo echter KI-Anwendungen',
+                            'Überblick: CV, NLP, moderne Tools',
+                            'Was kann KI heute – was nicht?',
                             'Q&A-Segment',
                         ]}
                     />
                     <Plan
                         featured
-                        name="Level: Basics"
+                        name="Praxis-Workshop"
                         price="ChatGPT Expert"
-                        description="Wie genau funktionieren die Algorithmen hinter ChatGPT?"
+                        description="Moderne KI-Tools richtig nutzen"
                         href="#contact"
                         features={[
-                            'Grundlagen von Large Language Models',
-                            'Einführung in die GPT-Technologie',
-                            'Praxisnahe Anwendungsbeispiele',
-                            'Fortgeschrittene Nutzung mit ChatGPT PLUS',
-                            'Prompt Engineering',
-                            'Q&A-Segment',
+                            'ChatGPT, Claude & Co. effektiv nutzen',
+                            'Prompt Engineering für bessere Ergebnisse',
+                            'AI Agents & Automatisierung verstehen',
+                            'Praktische Anwendungsfälle',
+                            'KI im Arbeitsalltag integrieren',
+                            'Hands-on & Q&A',
                         ]}
                     />
                     <Plan
-                        name="Individuelle Beratung & Projekte"
+                        name="Beratung & Projekte"
                         price="AI Advisory"
-                        description="Spezialisiert auf individuelle KI-Projekte und Beratung."
+                        description="Individuelle KI-Beratung für Ihr Unternehmen"
                         href="#contact"
                         features={[
-                            'Beratung und Strategieentwicklung',
-                            'Prototypenentwicklung (PoCs, MVPs)',
-                            'Identifikation von KI-Anwendungsfällen',
-                            'Technische Umsetzung maßgeschneiderter Lösungen',
-                            'Skalierung und Optimierung von KI-Projekten',
-                            'Individuelle Schulungen und Workshops',
+                            'KI-Strategie und Beratung',
+                            'Identifikation von Anwendungsfällen',
+                            'Prototypen-Entwicklung (PoCs, MVPs)',
+                            'Maßgeschneiderte KI-Lösungen',
+                            'Schulungen für Ihr Team',
+                            'Langfristige Begleitung',
                         ]}
                     />
                 </div>
@@ -172,32 +169,6 @@ export function Pricing() {
                         Die Vorträge werden auf Deutsch und Englisch angeboten.
                     </p>
                 </div>
-                {/* Add YouTube iframe here */}
-                <div className="mt-10 flex justify-center">
-                    <iframe
-                        className="rounded-lg"
-                        width="800"
-                        height="500"
-                        src="https://www.youtube.com/embed/U8v1mjLcrYw"
-                        frameBorder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowFullScreen
-                    ></iframe>
-                </div>
-
-                {/*<Container className="relative z-10">*/}
-                {/*    <div className="mx-auto max-w-lg text-center mt-8">*/}
-                {/*        <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl">*/}
-                {/*            Kontaktieren Sie uns jetzt!*/}
-                {/*        </h2>*/}
-                {/*        <p className="mt-4 text-lg tracking-tight text-white">*/}
-                {/*            Tel.: 0177-8028796*/}
-                {/*        </p>*/}
-                {/*        <p className="mt-4 text-lg tracking-tight text-white">*/}
-                {/*            Email: christianbernhard089@gmail.com*/}
-                {/*        </p>*/}
-                {/*    </div>*/}
-                {/*</Container>*/}
             </Container>
         </section>
     )
