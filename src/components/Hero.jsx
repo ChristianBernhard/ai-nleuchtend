@@ -111,7 +111,7 @@ export function Hero() {
                             </svg>
                         </div>
                         <div className="font-display text-3xl font-bold text-slate-900">
-                            <AnimatedCounter end={1000} />
+                            <AnimatedCounter end={10000} />
                         </div>
                         <div className="mt-1 text-sm text-slate-600 text-center">
                             Teilnehmer
