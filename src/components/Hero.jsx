@@ -63,6 +63,14 @@ export function Hero() {
                     </p>
                 </div>
                 <NewsletterButton />
+                <a 
+                    href="https://steady.page/de/ainleuchtend/posts" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-xs text-slate-500 hover:text-blue-600 transition-colors duration-200 underline-offset-2 hover:underline"
+                >
+                    Alle bisherigen Ausgaben ansehen →
+                </a>
             </div>
 
             <div className="mt-20 lg:mt-16">
