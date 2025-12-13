@@ -16,6 +16,7 @@ import logoBeckAkademie from 'public/logos/beckakademie.png'
 import logoExpedia from 'public/logos/expedia.png'
 import logoLandau from 'public/logos/stadt-landau.png'
 import logoPutzbrunn from 'public/logos/putzbrunn.png'
+import logoErgo from 'public/logos/ergo.png'
 
 const logos = [
     { name: 'KVB', logo: logoKVB },
@@ -27,6 +28,7 @@ const logos = [
     { name: 'Expedia', logo: logoExpedia },
     { name: 'Landau', logo: logoLandau },
     { name: 'Putzbrunn', logo: logoPutzbrunn },
+    { name: 'Ergo', logo: logoErgo },
 ];
 
 export function Hero() {
@@ -77,23 +79,19 @@ export function Hero() {
                 <p className="font-display text-base text-slate-900 mb-8">
                     KI-Weiterbildung? Unsere Kunden bestätigen den Erfolg!
                 </p>
-                <div className="overflow-hidden">
-                    <ul
-                        role="list"
-                        className="flex items-center justify-start gap-x-8 animate-infinite-scroll"
-                        style={{ width: 'calc(200% + 4rem)' }}
-                    >
+                <div className="overflow-hidden [mask-image:linear-gradient(to_right,transparent,white_10%,white_90%,transparent)]">
+                    <div className="flex w-max animate-infinite-scroll">
                         {[...logos, ...logos].map((company, index) => (
-                            <li key={index} className="flex items-center justify-center w-[200px] h-[90px] flex-shrink-0">
-                            <Image
+                            <div key={index} className="flex items-center justify-center w-[180px] h-[80px] mx-6 flex-shrink-0">
+                                <Image
                                     src={company.logo}
                                     alt={company.name}
                                     unoptimized
-                                    className="filter grayscale brightness-60 object-contain w-full h-full"
+                                    className="grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all duration-300 object-contain w-full h-full"
                                 />
-                            </li>
+                            </div>
                         ))}
-                    </ul>
+                    </div>
                 </div>
 
                 {/* Stats Counter */}
