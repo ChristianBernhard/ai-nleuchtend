@@ -40,6 +40,8 @@ module.exports = {
             animation: {
                 'infinite-scroll': 'infinite-scroll 40s linear infinite',
                 'gradient': 'gradient 8s linear infinite',
+                'float': 'float 6s ease-in-out infinite',
+                'glow-pulse': 'glow-pulse 3s ease-in-out infinite',
             },
             keyframes: {
                 'infinite-scroll': {
@@ -55,6 +57,14 @@ module.exports = {
                         'background-size': '200% 200%',
                         'background-position': 'right center'
                     },
+                },
+                'float': {
+                    '0%, 100%': { transform: 'translateY(0px)' },
+                    '50%': { transform: 'translateY(-10px)' },
+                },
+                'glow-pulse': {
+                    '0%, 100%': { opacity: '0.4', transform: 'scale(1)' },
+                    '50%': { opacity: '0.7', transform: 'scale(1.05)' },
                 },
             },
         },

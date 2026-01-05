@@ -35,7 +35,7 @@ const faqs = [
             question:
                 'Wie lange dauert ein typischer Vortrag?',
             answer:
-                'Ein Standardvortrag dauert in der Regel ca. 90 Minuten, kann aber je nach Anforderung angepasst werden. Außerdem haben die Teilnehmer die Möglichkeit, im Rahmen einer Diskussionsrunde, Ihre eigenen Fragen zu KI beantwortet zu bekommen.',
+                'Von kurzen Impulsvorträgen bis hin zu ganztägigen Workshops bieten wir flexible Formate an, die sich Ihren Anforderungen anpassen.',
         },
         {
             question: 'Auf welcher Sprache werden die Kurse gehalten?',

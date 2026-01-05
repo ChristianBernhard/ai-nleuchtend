@@ -180,7 +180,7 @@ export function Pricing() {
                         <p className="text-lg text-slate-400">
                             Zusätzlich zu den Vorträgen erhalten die Teilnehmer auf Wunsch ein personalisiertes
                             Teilnahmezertifikat. Außerdem erhalten Sie Zugriff auf die Unterlagen in Form eines Cheatsheets.
-                            Die Vorträge werden auf Deutsch und Englisch angeboten.
+                            Die Vorträge werden auf Deutsch und Englisch angeboten – alle Inhalte passen wir individuell an Ihre Bedürfnisse an.
                         </p>
                     </div>
                 </ScrollReveal>
