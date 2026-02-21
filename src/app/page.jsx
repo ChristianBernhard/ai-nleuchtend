@@ -6,6 +6,7 @@ import {Pricing} from '@/components/Pricing'
 import {CallToAction} from '@/components/CallToAction'
 import {SecondaryFeatures} from '@/components/SecondaryFeatures'
 import {EUAIActBanner} from '@/components/EUAIActBanner'
+import {VHSPartner} from '@/components/VHSPartner'
 
 export default function Home() {
     return (
@@ -17,6 +18,7 @@ export default function Home() {
                 {/*<PrimaryFeatures/>*/}
                 <SecondaryFeatures/>
                 <Pricing/>
+                <VHSPartner/>
                 <CallToAction/>
                 <Faqs/>
             </main>
