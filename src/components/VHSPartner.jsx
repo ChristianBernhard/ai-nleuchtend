@@ -38,7 +38,7 @@ export function VHSPartner() {
                                 <div className="relative aspect-[4/5] w-full sm:aspect-[3/4] lg:aspect-auto lg:h-full">
                                     <Image
                                         src="/conny.jpeg"
-                                        alt="Cornelia Hayn – Co-Dozentin für VHS-Kurse bei AInleuchtend"
+                                        alt="Cornelia Hayn – Dozentin für VHS-Kurse bei AInleuchtend"
                                         fill
                                         className="object-cover object-top"
                                     />
@@ -51,7 +51,7 @@ export function VHSPartner() {
                                     Cornelia Hayn
                                 </h3>
                                 <p className="mt-1 text-sm font-medium text-blue-600">
-                                    Co-Dozentin &middot; VHS-Kurse
+                                    Dozentin &middot; VHS-Kurse
                                 </p>
 
                                 <p className="mt-5 text-base leading-7 text-slate-600">
