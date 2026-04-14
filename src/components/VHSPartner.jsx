@@ -7,7 +7,6 @@ import { ScrollReveal } from '@/components/ScrollReveal'
 const qualifications = [
     'Über 20 Jahre Erfahrung als selbstständige Dozentin',
     'Studierte Wirtschaftswissenschaftlerin',
-    'Langjährige Lehrtätigkeit im Informatikbereich',
     'Expertin für Didaktik & individuelle Wissensvermittlung',
 ]
 
@@ -57,16 +56,16 @@ export function VHSPartner() {
                                 <p className="mt-5 text-base leading-7 text-slate-600">
                                     Seit Mitte 2025 führt Cornelia Hayn unsere VHS-Kurse im
                                     Namen von AInleuchtend durch. Mit über zwei Jahrzehnten
-                                    Erfahrung als Dozentin sowie einem Hintergrund in
-                                    Informatik und Wirtschaftswissenschaften verbindet sie
-                                    fachliche Tiefe mit didaktischem Feingefühl &ndash; genau
-                                    das, was es braucht, um KI-Themen verständlich und
-                                    praxisnah an ein breites Publikum zu vermitteln.
+                                    Erfahrung als Dozentin sowie einem wirtschaftswissenschaftlichen
+                                    Hintergrund verbindet sie fachliche Tiefe mit didaktischem
+                                    Feingefühl &ndash; genau das, was es braucht, um KI-Themen
+                                    verständlich und praxisnah an ein breites Publikum zu
+                                    vermitteln.
                                 </p>
 
-                                <ul className="mt-6 grid grid-cols-1 gap-3 sm:grid-cols-2">
+                                <ul className="mt-6 flex flex-col gap-3">
                                     {qualifications.map((item) => (
-                                        <li key={item} className="flex items-start gap-2.5 text-sm text-slate-600">
+                                        <li key={item} className="flex items-start gap-2.5 text-base leading-7 text-slate-600">
                                             <svg
                                                 className="mt-0.5 h-5 w-5 shrink-0 text-blue-500"
                                                 fill="none"
@@ -84,11 +83,6 @@ export function VHSPartner() {
                                         </li>
                                     ))}
                                 </ul>
-
-                                <p className="mt-6 text-sm leading-6 text-slate-500">
-                                    Die Kursplanung & Konzeption erfolgen weiterhin
-                                    über AInleuchtend &ndash; für einen nahtlosen und gewohnt hohen Qualitätsstandard.
-                                </p>
                             </div>
                         </div>
                     </div>
