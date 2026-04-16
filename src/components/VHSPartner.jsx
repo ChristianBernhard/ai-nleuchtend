@@ -56,11 +56,11 @@ export function VHSPartner() {
                                 <p className="mt-5 text-base leading-7 text-slate-600">
                                     Seit Mitte 2025 führt Cornelia Hayn unsere VHS-Kurse im
                                     Namen von AInleuchtend durch. Mit über zwei Jahrzehnten
-                                    Erfahrung als Dozentin sowie einem wirtschaftswissenschaftlichen
-                                    Hintergrund verbindet sie fachliche Tiefe mit didaktischem
-                                    Feingefühl &ndash; genau das, was es braucht, um KI-Themen
-                                    verständlich und praxisnah an ein breites Publikum zu
-                                    vermitteln.
+                                    Erfahrung als Dozentin sowie einem Hintergrund in
+                                    Informatik und Wirtschaftswissenschaften verbindet sie
+                                    fachliche Tiefe mit didaktischem Feingefühl &ndash; genau
+                                    das, was es braucht, um KI-Themen verständlich und
+                                    praxisnah an ein breites Publikum zu vermitteln.
                                 </p>
 
                                 <ul className="mt-6 flex flex-col gap-3">
