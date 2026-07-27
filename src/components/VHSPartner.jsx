@@ -54,7 +54,7 @@ export function VHSPartner() {
                                 </p>
 
                                 <p className="mt-5 text-base leading-7 text-slate-600">
-                                    Seit Mitte 2025 führt Cornelia Hayn unsere VHS-Kurse im
+                                    Seit Herbst 2025 führt Cornelia Hayn unsere VHS-Kurse im
                                     Namen von AInleuchtend durch. Mit über zwei Jahrzehnten
                                     Erfahrung als Dozentin sowie einem Hintergrund in
                                     Informatik und Wirtschaftswissenschaften verbindet sie
